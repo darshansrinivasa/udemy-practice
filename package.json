@@ -1,7 +1,7 @@
 {
-  "name": "learning-npm",
+  "name": "qr-code-generator",
   "version": "1.0.0",
-  "description": "I am learning npm",
+  "description": "",
   "main": "index.js",
   "type": "module",
   "scripts": {
@@ -10,6 +10,7 @@
   "author": "Darshan",
   "license": "ISC",
   "dependencies": {
-    "superheroes": "^4.0.0"
+    "inquirer": "^12.6.1",
+    "qr-image": "^3.2.0"
   }
 }
