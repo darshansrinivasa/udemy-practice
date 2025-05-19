@@ -1,11 +1,12 @@
-import Pi, { DoublePi, TriplePi } from './Math.jsx';
+import * as PI from './Math.jsx';
 
+console.log(PI);
 function App() {
     return (
         <div>
-            <li><Pi /></li>
-            <li><DoublePi /></li>
-            <li><TriplePi /></li>
+            <li>{PI.default()}</li>
+            <li>{PI.DoublePi()}</li>
+            <li>{PI.TriplePi()}</li>
         </div>
     )
 }
