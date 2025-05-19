@@ -1,9 +1,11 @@
-import Heading from './Heading';
+import Pi, { DoublePi, TriplePi } from './Math.jsx';
 
 function App() {
     return (
         <div>
-            <Heading />
+            <li><Pi /></li>
+            <li><DoublePi /></li>
+            <li><TriplePi /></li>
         </div>
     )
 }
