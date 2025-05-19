@@ -1,6 +1,5 @@
 const fs = require("fs");
-
-fs.writeFile("message.txt", "Hello world from index.js", (err) => {
+fs.readFile("message.txt", "utf-8", (err, data) => {
     if (err) console.log(err);
-    else console.log("File saved successfully");
+    else console.log(data);
 });
