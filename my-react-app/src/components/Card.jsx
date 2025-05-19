@@ -1,9 +1,11 @@
+import Avatar from './Avatar';
+
 function Card(props) {
     return (
         <div className="card">
             <div className="top">
                 <h1 className="name">{props.name}</h1>
-                <img className="circle-img" src={props.image} alt="avatar" />
+                <Avatar image={props.image} />
             </div>
             <div className="bottom">
                 <p>{props.contact}</p>
