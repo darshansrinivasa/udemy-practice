@@ -1,13 +1,27 @@
-import * as Calculator from './Calculator';
+//1. Create a new React app.
+//2. Create a App.jsx component.
+//3. Create a Header.jsx component that renders a <header> element
+//to show the Keeper App name in an <h1>.
+//4. Create a Footer.jsx component that renders a <footer> element
+//to show a copyright message in a <p> with a dynamically updated year.
+//5. Create a Note.jsx component to show a <div> element with a
+//<h1> for a title and a <p> for the content.
+//6. Make sure that the final website is styled like the example shown here:
+//https://l1pp6.csb.app/
+
+
+
+import Header from './Header';
+import Footer from './Footer';
+import Notes from './Notes';
 
 function App() {
     return (
-        <ul>
-            <li>{Calculator.Subtract(5, 2)}</li>
-            <li>{Calculator.Add(5, 1)}</li>
-            <li>{Calculator.Multiply(5, 1)}</li>
-            <li>{Calculator.Divide(5, 2)}</li>
-        </ul>
+       <div>
+            <Header />
+            <Notes />
+            <Footer />
+       </div>
     )
 }
 
