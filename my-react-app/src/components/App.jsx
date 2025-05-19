@@ -1,13 +1,13 @@
-import * as PI from './Math.jsx';
+import * as Calculator from './Calculator';
 
-console.log(PI);
 function App() {
     return (
-        <div>
-            <li>{PI.default()}</li>
-            <li>{PI.DoublePi()}</li>
-            <li>{PI.TriplePi()}</li>
-        </div>
+        <ul>
+            <li>{Calculator.Subtract(5, 2)}</li>
+            <li>{Calculator.Add(5, 1)}</li>
+            <li>{Calculator.Multiply(5, 1)}</li>
+            <li>{Calculator.Divide(5, 2)}</li>
+        </ul>
     )
 }
 
