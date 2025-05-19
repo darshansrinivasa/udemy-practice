@@ -1,5 +1,4 @@
-const fs = require("fs");
-fs.readFile("message.txt", "utf-8", (err, data) => {
-    if (err) console.log(err);
-    else console.log(data);
-});
+import superheroes, { randomSuperhero } from "superheroes";
+
+console.log('All superheroes', superheroes);
+console.log('I am',randomSuperhero(), '!');
